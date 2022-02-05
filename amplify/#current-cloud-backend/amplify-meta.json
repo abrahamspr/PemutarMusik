@@ -1,0 +1,43 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-spotify-developer-111958-authRole",
+      "UnauthRoleArn": "arn:aws:iam::929989271239:role/amplify-spotify-developer-111958-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::929989271239:role/amplify-spotify-developer-111958-authRole",
+      "Region": "ap-southeast-1",
+      "DeploymentBucketName": "amplify-spotify-developer-111958-deployment",
+      "UnauthRoleName": "amplify-spotify-developer-111958-unauthRole",
+      "StackName": "amplify-spotify-developer-111958",
+      "StackId": "arn:aws:cloudformation:ap-southeast-1:929989271239:stack/amplify-spotify-developer-111958/8f6e85c0-84a8-11ec-a721-0690fff150e0",
+      "AmplifyAppId": "d1v7u33d89i9am"
+    }
+  },
+  "api": {
+    "spotify": {
+      "service": "AppSync",
+      "providerPlugin": "awscloudformation",
+      "output": {
+        "authConfig": {
+          "defaultAuthentication": {
+            "authenticationType": "API_KEY",
+            "apiKeyConfig": {
+              "apiKeyExpirationDays": 90,
+              "apiKeyExpirationDate": "2022-05-04T04:26:55.234Z",
+              "description": "spotify"
+            }
+          },
+          "additionalAuthenticationProviders": []
+        },
+        "GraphQLAPIIdOutput": "fhrlfktribdtrju2olc3mswuhu",
+        "GraphQLAPIEndpointOutput": "https://544cfw7z2fgqjpislfj7us7axm.appsync-api.ap-southeast-1.amazonaws.com/graphql",
+        "GraphQLAPIKeyOutput": "da2-veivwf6eonf75mgazbwkmg6rua"
+      },
+      "lastPushTimeStamp": "2022-02-03T04:33:09.557Z",
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-spotify-developer-111958-deployment/amplify-cfn-templates/api/cloudformation-template.json",
+        "logicalId": "apispotify"
+      },
+      "lastPushDirHash": "ZgoxWs9678c6rYPZySN5EMEBNBg="
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+    "CreateAPIKey": 1,
+    "AppSyncApiName": "spotify",
+    "DynamoDBBillingMode": "PAY_PER_REQUEST",
+    "DynamoDBEnableServerSideEncryption": false,
+    "S3DeploymentBucket": "amplify-spotify-developer-111958-deployment",
+    "S3DeploymentRootKey": "amplify-appsync-files/1b210f0174d387882e130f54e63f80f33eda1d52"
+}
